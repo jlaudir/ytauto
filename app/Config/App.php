@@ -32,3 +32,4 @@ class App extends BaseConfig
     public array $allowedHostnames = [];
 
 }
+    public string $contentSecurityPolicy = false;

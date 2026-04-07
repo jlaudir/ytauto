@@ -14,8 +14,8 @@ class Filters extends BaseConfig
         'honeypot'  => \CodeIgniter\Filters\Honeypot::class,
         'invalidchars' => \CodeIgniter\Filters\InvalidChars::class,
         'secureheaders' => \CodeIgniter\Filters\SecureHeaders::class,
-        'client'    => ClientFilter::class,
-        'admin'     => AdminFilter::class,
+        'client' => AppFiltersClientFilter::class,
+        'admin'  => AppFiltersAdminFilter::class,
     ];
 
     public array $globals = [
